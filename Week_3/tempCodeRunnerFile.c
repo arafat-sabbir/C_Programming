@@ -1,1 +1,2 @@
-  // arr[i] = arr[i - 1];
+    // z = x + y;
+    // printf("%d %d %d", x, y, z);
