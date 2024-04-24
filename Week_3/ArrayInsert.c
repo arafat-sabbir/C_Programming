@@ -8,12 +8,12 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    for (int i = size; i > 0; i--)
+    int pos, val;
+    scanf("%d %d", &pos, &val);
+    for (int i = size; i >= pos + 1; i--)
     {
         arr[i] = arr[i - 1];
     }
-    int pos,val;
-    scanf("%d %d",&pos,&val);
     arr[pos] = val;
     for (int i = 0; i <= size; i++)
     {
