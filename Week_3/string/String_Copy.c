@@ -3,8 +3,8 @@
 int main()
 {
     char string1[100];
-    scanf("%s", string1);
     char string2[100];
+    scanf("%s %s", string1, string2);
     for (int i = 0; i <= strlen(string1); i++)
     {
         string2[i] = string1[i];
