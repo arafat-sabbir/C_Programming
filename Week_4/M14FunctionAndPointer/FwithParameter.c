@@ -9,7 +9,7 @@ int mul(int x,int y){
 int minus(int x,int y){
     return x-y;
 }
-int dev(int x,int y){
+float div(int x,int y){
     return x/y;
 }
 int main()
@@ -19,6 +19,6 @@ int main()
     printf("Sum is %d\n",sum(p,y));
     printf("Multiply Is %d\n",mul(p,y));
     printf("Minus Is %d\n",minus(p,y));
-    printf("Division Is %d\n",div(p,y));
+    printf("Division Is %f\n",div(p,y));
     return 0;
 }
