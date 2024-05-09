@@ -20,7 +20,6 @@ int main()
             }
             else
             {
-
                 printf("#");
             }
         }

@@ -10,12 +10,10 @@ int main() {
         for (int j = 1; j <= n - i; j++) {
             printf(" ");
         }
-
         // Print numbers in decreasing order
         for (int j = i; j >= 1; j--) {
             printf("%d", j);
         }
-
         printf("\n");
     }
 
