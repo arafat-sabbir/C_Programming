@@ -4,6 +4,7 @@ int main()
     int col, row;
     scanf("%d %d", &col, &row);
     int arr[col][row];
+    
     for (int i = 0; i < col; i++)
     {
         for (int j = 0; j < row; j++)
