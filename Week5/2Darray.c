@@ -17,5 +17,6 @@ int main()
         }
         printf("\n");
     }
+    printf("2dArray Using Matrix Concept");
     return 0;
 }
